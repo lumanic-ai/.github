@@ -1,0 +1,42 @@
+name: Build profile figures
+
+on:
+  push:
+    branches: [main]
+    paths: ['tools/profile-figures/**']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-figures
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+
+      - uses: actions/setup-node@v6
+        with:
+          node-version: 22
+
+      - name: Build figures and brand files
+        working-directory: tools/profile-figures
+        run: |
+          npm install --no-audit --no-fund
+          npm run build
+
+      - name: Commit regenerated files
+        run: |
+          git add profile/assets brand
+          if git diff --cached --quiet; then
+            echo "Figures are up to date."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Rebuild profile figures"
+          git push
