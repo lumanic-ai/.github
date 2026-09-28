@@ -1,0 +1,2 @@
+# The figure generator is tooling, not product code: keep it out of language statistics.
+tools/** linguist-vendored
