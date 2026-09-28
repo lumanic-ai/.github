@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="96 64 352 384" width="352" height="384" role="img" aria-label="Lumanic mark">
+<defs>
+<radialGradient id="bm-light" cx="0.5" cy="0.5" r="0.5">
+<stop offset="0" stop-color="#D9900F" stop-opacity="0.35"/>
+<stop offset="0.45" stop-color="#D9900F" stop-opacity="0.098"/>
+<stop offset="1" stop-color="#D9900F" stop-opacity="0"/>
+</radialGradient>
+</defs>
+<circle cx="312" cy="202" r="118.8" fill="url(#bm-light)"/>
+<path d="M150 116 V392 H396" fill="none" stroke="#12151A" stroke-width="36" stroke-linecap="butt" stroke-linejoin="miter"/>
+<circle cx="312" cy="202" r="33" fill="#D9900F"/>
+</svg>

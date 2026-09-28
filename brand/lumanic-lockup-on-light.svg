@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 246 72" width="246" height="72" role="img" aria-label="Lumanic"><defs><path id="c30" d="m546 0l-484 0l0-720l130 0l0 617l354 0l0 103"/><path id="c109" d="m232 10l0 0q-53 0-91-22q-39-23-59-62q-21-39-21-88l0 0l0-348l126 0l0 322q0 47 24 71q23 24 66 24l0 0q39 0 69-18q29-18 47-50q17-33 17-74l0 0l0-275l127 0l0 510l-123 0l0-95q-24 44-65 71l0 0q-50 34-117 34"/><path id="c91" d="m193 0l-126 0l0-510l123 0l0 94q25-43 65-71l0 0q49-33 114-33l0 0q78 0 123 44l0 0q24 24 35 55l0 0q24-39 64-66l0 0q51-33 118-33l0 0q80 0 126 46q45 45 45 120l0 0l0 354l-127 0l0-329q0-45-22-66q-22-22-63-22l0 0q-37 0-67 17q-30 17-47 48q-17 31-17 72l0 0l0 280l-127 0l0-329q0-45-22-66q-23-22-64-22l0 0q-36 0-66 17q-30 17-47 48q-18 31-18 72l0 0l0 280"/><path id="c59" d="m511 0l-126 0q-5-20-7-44l0 0q-2-16-3-36l0 0q-20 39-55 61l0 0q-46 29-112 29l0 0q-77 0-122-38q-46-39-46-104l0 0q0-70 51-111q51-41 144-55l0 0l136-21l0-25q0-40-22-60q-23-21-69-21l0 0q-45 0-71 17q-27 16-33 47l0 0l-121 0q8-71 68-115q60-44 161-44l0 0q105 0 159 48q54 47 54 139l0 0l0 231q0 24 4 49q3 25 10 53l0 0m-140-179l0-60l-115 18q-45 7-67 25q-23 18-23 50l0 0q0 29 21 45q21 15 58 15l0 0q54 0 90-27q36-27 36-66l0 0"/><path id="c92" d="m193 0l-126 0l0-510l123 0l0 94q25-43 66-71l0 0q50-33 120-33l0 0q83 0 130 47q46 47 46 125l0 0l0 348l-127 0l0-322q0-47-24-71q-24-24-70-24l0 0q-40 0-71 18q-32 18-49 50q-18 32-18 74l0 0l0 275"/><path id="c80" d="m193 0l-126 0l0-510l126 0l0 510m5-594l-137 0l0-139l137 0l0 139"/><path id="c68" d="m288 10l0 0q-77 0-135-34q-59-34-92-94q-34-61-34-138l0 0q0-77 34-136q33-60 92-94q58-34 135-34l0 0q63 0 114 24q51 23 84 66q33 42 42 98l0 0l-121 0q-11-41-42-64q-31-23-75-23l0 0q-41 0-70 20q-30 20-46 57q-16 37-16 86l0 0q0 50 16 87q16 37 46 58q30 20 70 20l0 0q44 0 75-23q31-23 42-64l0 0l121 0q-9 56-42 99q-34 42-84 66q-51 23-114 23"/></defs>
+<g transform="translate(-17 -2.6) scale(0.143)">
+<defs>
+<radialGradient id="bl-light" cx="0.5" cy="0.5" r="0.5">
+<stop offset="0" stop-color="#D9900F" stop-opacity="0.35"/>
+<stop offset="0.45" stop-color="#D9900F" stop-opacity="0.098"/>
+<stop offset="1" stop-color="#D9900F" stop-opacity="0"/>
+</radialGradient>
+</defs>
+<circle cx="312" cy="202" r="118.8" fill="url(#bl-light)"/>
+<path d="M150 116 V392 H396" fill="none" stroke="#12151A" stroke-width="36" stroke-linecap="butt" stroke-linejoin="miter"/>
+<circle cx="312" cy="202" r="33" fill="#D9900F"/></g>
+<g transform="translate(55 56) scale(0.046)" fill="#12151A"><use xlink:href="#c30"/><use xlink:href="#c109" x="579"/><use xlink:href="#c91" x="1173"/><use xlink:href="#c59" x="2104"/><use xlink:href="#c92" x="2652"/><use xlink:href="#c80" x="3254"/><use xlink:href="#c68" x="3504"/></g>
+</svg>
