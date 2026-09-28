@@ -1,0 +1,38 @@
+name: Proposal
+description: Propose a capability, a schema or rule change, or a new integration.
+labels: [proposal]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: Which question or decision is hard to answer today, and for whom?
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - F·S·T semantic representation
+        - Context graph and retrieval
+        - Decision ontology
+        - Decision intelligence
+        - Explain Trail
+        - SDK or API
+        - Documentation
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposal
+      description: What should change? Include schema or interface sketches if relevant.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: How we would know it works
+      description: Evaluation, example inputs with expected outputs, or the Explain Trail you would expect to see.
